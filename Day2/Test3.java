@@ -2,9 +2,9 @@ import java.sql.SQLOutput;
 
 public class Test3 {
 
-    static void calculateAngleOfRactangle(int angle1,int angle2,int angle3){
+    static void calculateAngleOfparallelogram(int angle1,int angle2,int angle3){
         int angle=360-(angle1+angle2+angle3);
-        System.out.println("Angle of ractangle: "+angle);
+        System.out.println("Angle of parallelogram: "+angle);
         //return angle;
 
     }
@@ -20,7 +20,7 @@ public class Test3 {
     }
 
     public static void main(String args[]){
-        calculateAngleOfRactangle(25,21,86);
+        calculateAngleOfparallelogram(25,21,86);
         calculateAreaOfTriangle(25,32);
         showTables(5);
 
